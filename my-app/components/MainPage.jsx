@@ -29,7 +29,7 @@ const MainPage = () => {
   };
 
   const handleUpdateRecord = (id) => {
-    router.push(`/retete/edit?id=${id}`);
+    router.push(`/editrecord?id=${id}`);
   };
 
  const handleCreateRecord = () => {
